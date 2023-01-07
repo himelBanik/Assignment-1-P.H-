@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+    box-sizing: border-box;
+}
+.background-image{
+    position: absolute;
+    width: 1519px;
+    height: 808px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    background: url("../images/banner/banner1.png");
+
+}
+.title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 76px;
+    text-align: left;
+}
+
+.description{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #444343;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.button-primary{
+    position: absolute;
+    height: 64px;
+    left: 1225px;
+    top: 578px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border: 0;
+    padding: 18px 32px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;  
+}
+
+.button-primary:hover{
+    background-color: #9d4405;
+}
+
+.about{
+    display: flex;
+    
+}
+.person{
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 100px;
+    top: 939px;
+
+}
+.about-title{
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 900px;
+    top: 1178px;
+    font-size: 25px;
+}
+
+.about-description{
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.points{  
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    left: 25px;
+    color: #444343;
+    list-style: none;    
+}
+
+.my-plans-section{
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 765px;
+    top: 1792px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.my-plans-points{
+    position: absolute;
+    width: 1141px;
+    height: 202.96px;
+    left: 220px;
+    top: 1889px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    gap: 50px
+}
+.call-now{
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 200px;
+    top: 2221.96px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url("../images/watch.png");
+    border-radius: 8px;
+}
+
+.footer{
+    position: absolute;
+    width: 1519px;
+    
+    height: 577px;
+    left: 0px;
+    top: 2652.26px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+    gap: 500px;
+    background: #151414;
+    padding:160px 230px;
+}
+
+.col1 a{
+    padding-right: 20px;
+}
+
+.col2 input{
+    margin-bottom: 24px;
+    
+    height: 40px ;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #060606;
+    background-color: #0c0c0c;
+}
+
+.col2 button{
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0px 28px;
+    cursor: pointer;  
+    border-radius: 5px;
+}
